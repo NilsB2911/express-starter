@@ -1,0 +1,27 @@
+{
+  "name": "express-starter",
+  "version": "1.0.5",
+  "private": true,
+  "type": "module",
+  "author": "Nils Blessing",
+  "scripts": {
+    "pre-commit": "sh pre-commit.sh"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "@babel/core": "^7.21.0",
+    "@babel/eslint-parser": "^7.19.1",
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.8.4"
+  },
+  "pre-commit": [
+    "pre-commit"
+  ]
+}
