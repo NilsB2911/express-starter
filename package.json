@@ -5,7 +5,8 @@
   "type": "module",
   "author": "Nils Blessing",
   "scripts": {
-    "pre-commit": "sh pre-commit.sh"
+    "pre-commit": "sh pre-commit.sh",
+    "format": "prettier . --write"
   },
   "main": "main.js",
   "dependencies": {
