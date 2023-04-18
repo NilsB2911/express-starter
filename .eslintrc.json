@@ -3,11 +3,9 @@
     "env": {
         "node": true
     },
-    "parser": "@babel/eslint-parser",
-    "extends": [
-        "eslint:recommended", "prettier"
-    ],
-    "plugins": ["prettier"],
+    "parser": "@typescript-eslint/parser",
+    "extends": ["eslint:recommended", "prettier", "plugin:@typescript-eslint/recommended"],
+    "plugins": ["prettier", "@typescript-eslint"],
     "parserOptions": {
         "ecmaVersion": 8,
         "requireConfigFile": false
